@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <!-- Links para carregar a fonte 'Inter' do Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&display=swap" rel="stylesheet" />
+  
+  <!-- Configurações da página -->
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  
+  <!-- Título da página e ícone do favicon -->
+  <title> Bruno Tanabe</title>
+  <link rel="icon" href="./assets/favicon.png" type="image/x-icon" />
+  
+  <!-- Carregamento do arquivo de estilos CSS -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- Container principal -->
+  <div id="container">
+    <!-- Foto de perfil -->
+    <div id="profile">
+      <img src="./assets/darktheme-photo.png" alt="Foto de perfil do Bruno Tanabe, rosto sério, blusa azul e fundo neutro."/>
+      <p>@tanabebruno</p>
+    </div>
+
+    <!-- Botão para alternar entre os temas -->
+    <div id="switch" onclick="toggleMode()">
+      <button></button>
+      <span></span>
+    </div>
+
+    <!-- Lista de links -->
+    <ul>
+      <li>
+        <a href="https://linkedin.com/in/tanabebruno" target="_blank">Me conhecer</a>
+      </li>
+      <li>
+        <a href="mailto:tanabebruno@gmail.com" target="_blank">Falar comigo</a>
+      </li>
+      <li>
+        <a href="https://github.com/brunotanabe" target="_blank">Ver meu portfólio</a>
+      </li>
+    </ul>
+
+    <!-- Ícones de redes sociais -->
+    <div id="social-links">
+      <a href="https://linkedin.com/in/tanabebruno" target="_blank">
+        <ion-icon name="logo-linkedin"></ion-icon>
+      </a>
+      <a href="mailto:tanabebruno@gmail.com" target="_blank">
+        <ion-icon name="mail"></ion-icon>
+      </a>
+      <a href="https://github.com/brunotanabe" target="_blank">
+        <ion-icon name="logo-github"></ion-icon>
+      </a>
+    </div>
+
+    <!-- Rodapé -->
+    <footer>
+      Disponível no <a href="#">GitHub</a>
+    </footer>
+  </div>
+
+  <!-- Scripts para carregar ícones Ionicons e o script personalizado -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+  <script src="./script.js"></script>
+</body>
+</html>
